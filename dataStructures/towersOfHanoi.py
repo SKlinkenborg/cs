@@ -42,7 +42,8 @@ def get_input():
       for i in range(len(stacks)):
         if user_input in choices[i]:
           return stacks[i]
-    
+
+# Play the Game
 num_user_moves = 0
 # continue until right stack holds all the disks
 while right_stack.get_size() != num_disks:
