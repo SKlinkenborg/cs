@@ -1,8 +1,4 @@
 '''
-
-'''
-
-'''
 The difference between a doubly linked list and a singly linked list is that in a doubly linked list, the nodes have pointers to the previous node as well as the next node. This means that the doubly linked list data structure has a tail property in addition to a head property, which allows for traversal in both directions.
 
 So the nodes we will use for our doubly linked list contain three elements:
